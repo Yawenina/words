@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yawenina.github.io/words/",
+  "homepage": "https://yawenina.github.io/words",
   "engines": {
     "node": "9.8.0",
     "npm": "5.6.0"

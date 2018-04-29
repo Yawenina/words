@@ -1,3 +1,5 @@
+# 单词
+![status img](https://travis-ci.org/Yawenina/words.svg?branch=master)
 ## 踩过的坑--后端
 1. 一定要在引入 mongoose `model` 之后再引入 `app`, 否则会报错：`model doesn't register`;
 2. 

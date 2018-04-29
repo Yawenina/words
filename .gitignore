@@ -2,6 +2,7 @@
 node_modules
 /dist
 now.json
+output.js
 
 # local env files
 .env.local
