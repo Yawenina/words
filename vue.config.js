@@ -1,5 +1,6 @@
 module.exports = {
   lintOnSave: false,
+  baseUrl: './',
   devServer: {
     proxy: {
       '/api': {
@@ -9,9 +10,8 @@ module.exports = {
       }
     }
   },
-  configureWebpack: {
-    output: {
-      publicPath: './'
-    }
+  chainWebpack: (config) => {
+    config.plugins.delete('preload');
+    config.plugins.delete('prefetch');
   }
 };
