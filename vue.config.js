@@ -8,10 +8,5 @@ module.exports = {
         secure: false,
       }
     }
-  },
-  configureWebpack: {
-    output: {
-      publicPath: './'
-    }
   }
 };
