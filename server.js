@@ -6,7 +6,7 @@ const app = express();
 app.use(express.static(path.resolve(__dirname, 'dist')));
 
 app.use('/api', proxy({
-  target: 'https://api.yawenina.now.sh',
+  target: 'https://api.yawenina.com',
   changeOrigin: true
 }));
 
